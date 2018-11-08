@@ -1,0 +1,161 @@
+body {
+  font-family: 'Oxygen', sans-serif; }
+
+.btn1 {
+  padding: 10px 30px;
+  background: #00bae9;
+  border-radius: 5px;
+  border: 2px solid rgba(75, 75, 75, 0.5);
+  color: #fff;
+  font-size: 1.2rem; }
+
+.btn1:hover {
+  background: #fff;
+  color: #00193f; }
+
+.btn2 {
+  text-decoration: none;
+  padding: 5px 20px;
+  background: #00193f;
+  border-radius: 5px;
+  border: 1px solid rgba(75, 75, 75, 0.5);
+  color: #fff;
+  font-size: 1rem; }
+
+.btn2:hover {
+  text-decoration: none;
+  background: #fff;
+  border-color: #00193f;
+  color: #696969; }
+
+.btn3 {
+  text-decoration: none;
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid #00193f;
+  color: #00193f;
+  font-size: 1.2rem; }
+
+.btn3:hover {
+  text-decoration: none;
+  background: #f0f0f0; }
+
+.navbar {
+  background: #00bae9 !important;
+  min-height: 100px; }
+
+.navbar-brand img {
+  width: 260px; }
+
+.navbar-brand span {
+  color: #00bae9; }
+
+.nav-link {
+  font-weight: 550 !important;
+  color: #fff !important;
+  font-size: 1.1rem; }
+
+.nav-link:hover {
+  color: #00193f !important; }
+
+.navbarContact {
+  position: absolute;
+  top: 7px;
+  right: 90px;
+  color: #d6d6d6;
+  letter-spacing: 0.15rem; }
+
+.showcase {
+  background-size: cover;
+  background-position: center;
+  width: 100%; }
+
+.showcase h3 {
+  font-weight: bold; }
+
+.form-row {
+  background: #fff;
+  border: 1px solid #ccc; }
+
+.news {
+  background: #fff; }
+
+.carousel-caption h1 {
+  font-weight: 800 !important;
+  font-size: 300%;
+  text-shadow: 1px 2px 5px #000; }
+
+#section-a h1 {
+  font-size: 2rem; }
+
+.hr1 {
+  width: 70%; }
+
+.promocoes {
+  color: #00193f; }
+
+.card-body p.pacote {
+  padding: 5px 10px !important;
+  color: #fff;
+  background: #00bae9;
+  border-radius: 10px;
+  font-size: 0.9rem; }
+
+.card-title {
+  font-weight: bolder;
+  font-size: 1.6rem; }
+
+.card-body p {
+  margin: 5px; }
+
+.card:hover {
+  transform: scale(1.02);
+  transition: all 0.2s linear; }
+
+#main-footer {
+  background: #d8d8d8; }
+
+#main-footer h3 {
+  padding-bottom: 15px;
+  font-size: 1.2rem;
+  color: #696969;
+  font-weight: bold; }
+
+.list-group {
+  list-style: none; }
+
+.list-item {
+  font-size: 0.9rem; }
+
+.formasPagamento {
+  width: 90%; }
+
+.redes-sociais a {
+  font-size: 3rem;
+  padding-right: 20px;
+  color: #696969; }
+
+.facebook:hover {
+  color: #3b5998; }
+
+.twitter:hover {
+  color: #00aced; }
+
+.instagram:hover {
+  color: #ec165d; }
+
+@media (max-width: 992px) {
+  #carousel {
+    display: none; } }
+
+@media (max-width: 992px) and (min-width: 769px) {
+  .btn2 {
+    padding: 5px;
+    font-size: 0.8rem; }
+  .card {
+    font-size: 0.8rem; }
+  .card-title {
+    font-size: 1rem; }
+  .card-text {
+    font-size: 0.8rem; } }

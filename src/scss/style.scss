@@ -1,0 +1,211 @@
+$bg-color: red;
+$primary: #00193f;
+$secondary: #00bae9;
+$grey: #696969;
+
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+// Global
+.btn1 {
+    padding: 10px 30px;
+    background: $secondary;
+    border-radius: 5px;
+    border: 2px solid rgba(75, 75, 75, 0.5);
+    color: #fff;
+    // text-shadow: 1px 1px 1px #000;
+    font-size: 1.2rem;
+}
+.btn1:hover {
+    background: #fff;
+    color: $primary;
+    
+}
+.btn2 {
+    text-decoration: none;
+    padding: 5px 20px;
+    background: $primary;
+    border-radius: 5px;
+    border: 1px solid rgba(75, 75, 75, 0.5);
+    color: #fff;
+    // text-shadow: 1px 1px 1px #000;
+    font-size: 1rem;
+}
+.btn2:hover {
+    text-decoration: none;
+    background: #fff;
+    border-color: $primary;
+    color: $grey;
+}
+.btn3 {
+    text-decoration: none;
+    padding: 10px 30px;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid $primary;
+    color: $primary;
+    // text-shadow: 1px 1px 1px #000;
+    font-size: 1.2rem;
+}
+.btn3:hover {
+    text-decoration: none;
+    background: #f0f0f0;
+}
+
+
+// Navbar
+.navbar {
+    background: $secondary !important;
+    // background: linear-gradient(to right, #e9e9e9 0%, #f7f7f7 100%);
+    min-height: 100px;
+    
+}
+.navbar-brand img{
+    width: 260px;
+}
+.navbar-brand span {
+    color: $secondary;
+}
+
+.nav-link {
+    font-weight: 550 !important;
+    color: #fff !important;
+    // padding: 0 10px !important;
+    font-size: 1.1rem;
+    
+    
+}
+.nav-link:hover {
+    color: $primary !important;
+    
+}
+.navbarContact {
+    position: absolute;
+    top: 7px;
+    right: 90px;
+    color: #d6d6d6;
+    letter-spacing: 0.15rem;    
+}
+// Showcase
+
+.showcase {
+    // background: $primary;
+    // background: url(../img/newsletter.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+}
+.showcase h3 {
+    font-weight: bold;
+}
+.form-row {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.news {
+    background: #fff;
+}
+
+.carousel-caption h1 {
+    font-weight: 800 !important;
+    font-size: 300%;
+    text-shadow: 1px 2px 5px #000;
+    // background: rgba(231, 64, 64, 0.5);    
+}
+
+
+// Section A
+
+#section-a h1 {
+    font-size: 2rem;
+}
+
+.hr1 {
+    width: 70%;
+}
+// Cards
+.promocoes {
+    color: $primary;
+}
+.card-body p.pacote {
+    padding: 5px 10px !important; 
+    color: #fff;
+    background: $secondary;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+.card-title {
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.card-body p {
+    margin: 5px;
+}
+.card:hover {
+    transform: scale(1.02);
+    transition: all 0.2s linear;
+}
+
+// Footer
+
+#main-footer {
+    background: #d8d8d8;
+}
+#main-footer h3 {
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+    color: $grey;
+    font-weight: bold;
+    
+}
+
+.list-group {
+    list-style: none;
+}
+.list-item {
+    font-size: 0.9rem;
+}
+.formasPagamento {
+    width: 90%;
+}
+
+.redes-sociais a { 
+    font-size: 3rem;
+    padding-right: 20px;
+    color: #696969;
+}
+.facebook:hover {
+    color: #3b5998;
+}
+.twitter:hover {
+    color: #00aced;
+}
+.instagram:hover {
+    color: rgb(236, 22, 93);
+}
+
+@media(max-width: 992px) {
+
+    #carousel {
+        display: none;
+        
+    }
+}
+@media(max-width:992px) and (min-width: 769px) {
+
+    .btn2 {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+    .card {
+        font-size: 0.8rem;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-text {
+        font-size: 0.8rem;
+    }
+}

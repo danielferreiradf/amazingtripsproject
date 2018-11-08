@@ -1,0 +1,29 @@
+{
+  "name": "amazing-trips",
+  "version": "1.0.0",
+  "description": "Amazing Trips Website",
+  "main": "index.js",
+  "homepage": "https://danielferreiradf.github.io/amazingtrips",
+  "scripts": {
+    "start": "gulp",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Daniel",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-uglify": "^3.0.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
